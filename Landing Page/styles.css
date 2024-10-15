@@ -14,7 +14,7 @@ body{
     background-image: url(bg.png);
     color:white;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     margin-top: 400px;
 
@@ -65,4 +65,57 @@ li{
     margin-top: 30px;
     margin-left:60px;
     margin-right: 60px;
+}
+.textBox{
+    width:658;
+    height: 100px;
+
+  
+    align-items: center;
+    margin-left:250px;
+    margin-bottom: 200px;
+
+}
+.textBox>.mainText{
+    
+
+   
+    justify-content: center;
+    margin-left:250px;
+    font-size: 60px;
+    /* margin-bottom: 200px; */
+
+
+}
+h4{
+    align-items: center;
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top: 25px;
+    /* margin-left: 60px; */
+    
+}
+.button>button{
+    background-color:lime;
+    color: 000000; 
+    font-size: 40px;
+    display: flex;
+    margin-left: 700px;
+  
+    margin-bottom: 1200px;
+ width:150px;
+ height:57px;
+ align-items: center;
+ padding-left: 40px;
+ border-radius: 40px;
+ 
+
+
+}
+.button{
+  justify-content: center;
+  align-items: center;
 }
