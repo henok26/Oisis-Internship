@@ -4,6 +4,7 @@
 }
 nav{
    position:fixed;
+ 
 
 }
 li{
@@ -14,15 +15,17 @@ body{
     background-image: url(bg.png);
     color:white;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    margin-top: 400px;
+    margin-top: 200px;
+    background-color:green ;
 
 
 }
 .nav{
     color:white;
     display: flex;
+    background-color:green ;
     gap:30px;
     position:fixed;
     justify-content:space-between;
@@ -118,4 +121,49 @@ p{
 .button{
   justify-content: center;
   align-items: center;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue
+}
+.aboutUsMainText{
+    display:flex;
+}
+.aboutUsMainText>h1{
+    width:100%;
+ font-size: 72px;
+ font-weight: bold;
+    height: 40px;
+    margin-bottom:100px;
+}
+.aboutUsMainText>p{
+    width: 100%;
+   position: relative;
+   top:20px;
+   margin-top: 80px;
+ right: 800px;
+}
+#aboutUs{
+    background-color: blue;
+
+    margin-top: -400px; /* Adjust this value to reduce the gap */
+    padding-top: 0; /* Remove extra padding */
+
+}
+#home{
+    background-color: rgb(28, 152, 209);
+    padding-bottom: 0;/
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutUs>.aboutUsMainText{
+    margin-top: -400px;
+    padding-top: 0;
 }
